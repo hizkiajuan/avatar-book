@@ -1,4 +1,4 @@
-import './globals.css';
+import '../globals.css';
 import React from 'react';
 
 export const metadata = {
@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main>{children}</main>
+        <main className={'grid bg-gray-50 p-6'}>{children}</main>
       </body>
     </html>
   );
